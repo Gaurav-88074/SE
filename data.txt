@@ -1,0 +1,199 @@
+Q:define software engineering why it is called layered Technology?
+
+-->Software engineering is the application of principles used in the field of engineering, which usually deals with physical systems, to the design, development, testing, deployment and management of software systems.
+--> software engineering : is fully a layered technology, to develop software we need to go from one layer to another. All the layers are connected and each layer demands the fulfillment of the previous layer.
+
+diagram type:
+1.tools
+2.Method
+3.A process
+4.A qulaity focus
+
+Q :a high quality SRS is a prerequisite to high quality software justify the statement?
+
+-->An SRS establishes the basis for agreement between the customer and the supplier on what the software product will perform. An SRS provides a reference for validation of the final product/software. A high-quality SRS is a prerequisite to high-quality product/software. A high-quality SRS reduces the development cost.
+
+//----------------
+Characteristics of good SRS Document
+Concise: The SRS document should be unambiguous, consistent, and complete.
+Structured: A well-structured SRS document is easy to understand and modify.
+Black-Box View: SRS should only specify what the system should do and restrict from stating how to do.
+Conceptual Integrity: Conceptual integrity in the SRS helps the reader to easily understand it.
+Traceable: Traceability means it can tell which code part corresponds to which design component, which test case corresponds to which requirement and which design component corresponds to which requirement etc.
+Verifiable: All requirements of the system should be verifiable. This means it should be possible to tell whether or not the requirement has been met as specified in the SRS.
+//----------------
+
+Q : what are the various mattresses for software quality explain any one?
+
+--->Software metrics can be classified into three categories −
+
+Product metrics − Describes the characteristics of the product such as size, complexity, design features, performance, and quality level.
+
+Process metrics − These characteristics can be used to improve the development and maintenance activities of the software.
+
+Project metrics − This metrics describe the project characteristics and execution. Examples include the number of software developers, the staffing pattern over the life cycle of the software, cost, schedule, and productivity.
+
+Q : what is an object point in the COCOMO 2 model?
+
+-->Object points are an approach used in software development effort estimation under some models such as COCOMO II. Object points are a way of estimating effort size, similar to Source Lines Of Code (SLOC) or Function Points.
+
+Q:what is boundary value analysis? what are the guidelines to create bva test cases?
+-->Boundary Value Analysis (BVA) is a black box software testing technique where test cases are designed using boundary values. BVA is based on the single fault assumption, also known as critical fault assumption which states that failures are rarely the product of two or more simultaneous faults
+
+-->Test Case Design for BVA: 
+While designing the test cases for BVA first we determine the number of input variables in the problem. For each input variable, we then determine the range of values it can take. Then we determine the extreme values and nominal value for each input variable. 
+
+Q : what does the capability maturity model integration determine?explain its five capability levels?
+
+-->The Capability Maturity Model Integration (CMMI) is a process and behavioral model that helps organizations streamline process improvement and encourage productive, efficient behaviors that decrease risks in software, product, and service development.
+--->
+Objectives of CMMI :
+
+1.Fulfilling customer needs and expectations.
+2.Value creation for investors/stockholders.
+3.Market growth is increased.
+4.Improved quality of products and services.
+5.Enhanced reputation in Industry.
+
+CMMI Model – Capability Levels
+A capability level includes relevant specific and generic practices for a specific process area that can improve the organization’s processes associated with that process area. For CMMI models with continuous representation, there are six capability levels as described below :
+
+Capability level 0 : Incomplete
+incomplete process – partially or not performed.
+one or more specific goals of process area are not met.
+No generic goals are specified for this level.
+this capability level is same as maturity level 1.
+
+Capability level 1 : Performed
+process performance may not be stable.
+objectives of quality, cost and schedule may not be met.
+a capability level 1 process is expected to perform all specific and generic practices for this level.
+only a start-step for process improvement.
+
+Capability level 2 : Managed
+process is planned, monitored and controlled.
+managing the process by ensuring that objectives are achieved.
+objectives are both model and other including cost, quality, schedule.
+actively managing processing with the help of metrics.
+
+Capability level 3 : Defined
+a defined process is managed and meets the organization’s set of guidelines and standards.
+focus is process standardization.
+
+Capability level 4 : Quantitatively Managed
+process is controlled using statistical and quantitative techniques.
+process performance and quality is understood in statistical terms and metrics.
+quantitative objectives for process quality and performance are established.
+
+Capability level 5 : Optimizing
+focuses on continually improving process performance.
+performance is improved in both ways – incremental and innovation.
+emphasizes on studying the performance results across the organization to ensure that common causes or issues are identified and fixed.
+
+Q:what are umbrella activites?list any four umbrella activity
+
+-->Software engineering is a collection of interconnected phases. These steps are expressed or available in different ways in different software process models. Umbrella activities are a series of steps or procedures followed by a software development team to maintain the progress, quality, changes, and risks of complete development tasks. These steps of umbrella activities will evolve through the phases of the generic view of software development.
+
+The activities in the software development process are supplemented by many general activities. Generally, common activities apply to the entire software project and help the software development team manage and track progress, quality, changes, and risks.
+
+Umbrella activities consist of different tasks:
+
+Software Project Tracking and Control
+Formal Technical Reviews
+Software Quality Assurance
+SCM or Software configuration management
+Document Preparation and Production
+Re-usability Management
+Measurement and Metrics
+Risk Management
+
+Q : explain white box and black box testing methods
+-->https://www.geeksforgeeks.org/differences-between-black-box-testing-vs-white-box-testing/
+
+Q : state the significance of ghant chart for scheduling and
+monitoring a project?
+
+-->Gantt charts are useful for planning and scheduling projects. They help you assess how long a project should take, determine the resources needed, and plan the order in which you'll complete tasks. They're also helpful for managing the dependencies between tasks.
+
+Gantt charts are useful for monitoring a project's progress once it's underway, too. You can immediately see what should have been achieved by a certain date and, if the project is behind schedule, you can take action to bring it back on course.
+
+//----------
+Q analysis and design model
+-->Analysis is understanding the problem you're trying to solve. What environment is it in. Who are your customers going be. What behaviors should your solution exhibit. etc.
+
+Design is figuring out how to organize the solution once you've done the analysis and you understand the problem.
+
+Using resouces like UML, analysis would be in the requirements, use case, activity diagram arena.
+
+Design would be in the class diagram, sequence diagram, state diagram section.
+
+Architecture kind of has a foot in each camp.
+
+Generally you want to do a fair amount of analysis before design, otherwise you'll start building a solution for a problem you don't truly understand. These solutions usually aren't a good match. They are difficult to fit the problem once you eventually understand it, and they generally aren't as flexible.
+
+However, this doesn't mean that analysis has to be 100% complete before design begins. It's just wise to have done a fair amount of analysis first.
+//---------------------------------
+
+Q : difference between direct and indirect measures of software?
+
+Direct measures include software processes like cost and effort applied and products like lines of code produced, execution speed, and other defects that have been reported. Indirect measures include products like functionality, quality, complexity, reliability, maintainability, and many more.
+
+Q : difference between alpha and beta testing in Software Engineering
+https://www.geeksforgeeks.org/difference-between-alpha-and-beta-testing/
+
+Q : difference between top down and bottom up integration testing in Software Engineering
+https://www.geeksforgeeks.org/difference-between-top-down-and-bottom-up-integration-testing/
+
+Q : difference between error and defect
+The Defect is the difference between the actual outcomes and expected outputs. An Error is a mistake made in the code; that's why we cannot execute or compile code.
+
+Q : list any two characteristics of software?
+Functionality. The functionality of software refers to its ability to perform and function according to design specification. ...
+Usability (User-friendly) ...
+Efficiency. ...
+Flexibility. ...
+Reliability. ...
+Maintainability. ...
+Portability. ...
+Integrity.
+
+Q : state three steps for Risk projection in software development
+-->
+(1) Establish a scale that reflects the perceived likelihood of a risk. 
+(2) Delineate the consequences of the risk. 
+(3) Estimate the impact of the risk on the project and the product. 
+(4) Note the overall accuracy of the risk projection so that there will be no misunderstandings.
+
+Q : what is regressing testing?
+-->
+Regression Testing is defined as a type of software testing to confirm that a recent program or code change has not adversely affected existing features. Regression Testing is nothing but a full or partial selection of already executed test cases which are re-executed to ensure existing functionalities work fine.
+
+This testing is done to make sure that new code changes should not have side effects on the existing functionalities. It ensures that the old code still works once the latest code changes are done.
+
+Q : Three types of process follow
+--->youtube
+
+Q defect removal Efficiency
+-->
+Defect removal efficiency (DRE) is one of the testing metrics. It is an indicator of the efficiency of the development team to fix issues before the release.
+
+It gets measured as the ratio of defects fixed to total the number of issues discovered.
+
+For example, let’s say, there were 75 defects discovered during the test cycle while 62 of them got fixed by the development team at the time of measurement. The DRE would be 62/75 = 82.6%.
+
+Q : expected value for softwqare size?
+the most common software sizing methodology has been counting the lines of code written in the application source. Another approach is to do Functional Size Measurement, to express the functionality size as a number by performing function point analysis. The original sizing method is the IFPUG.
+
+Q : RMMM
+-->
+https://www.geeksforgeeks.org/risk-mitigation-monitoring-and-management-rmmm-plan/
+
+Q : smoke testing
+->>
+https://www.guru99.com/smoke-testing.html
+
+
+Q : explain four different measures for software quality?
+-->
+https://www.geeksforgeeks.org/measuring-software-quality-using-quality-metrics/
+
