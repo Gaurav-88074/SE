@@ -1,0 +1,26 @@
+software metrics can be classified into
+three Metrics
+
+product metrics : 
+it Describes the characteristics of product
+such as size,complexity,performance,design
+features and quality level
+
+process metrics : 
+these characteristics can be used to improve
+development and maintenance activites of the software
+
+project metrics:
+this metrices describe the chr of project 
+and excecution .Examples include the number
+of swe ,staffing pattern over the 
+life cycle of the software,cost
+schedule,productivity
+
+
+op are an approach 
+used in s d effort 
+estimation under some model
+such as cocomoII
+op are an way of estimating effort
+size similar to sloc or fp

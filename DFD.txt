@@ -1,0 +1,16 @@
+//-----------------------------
+1.allows student ot submit their assignment
+2.provides an environment to the teacher to evaluate them
+generates their result with minimum input
+
+draw lvl 0 and lvl1
+//-----------------------------
+
+//-----------------------------
+retail clothing store in mall
+lvl-1,0
+//-----------------------------
+
+//---------------------
+we based order processing system
+//---------------------
